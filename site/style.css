@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --dark: #00030e;
+    --primary: #5e3a5c;
+    --secondary: #b47a9a;
+    --shadow:0 12px 35px rgba(174,91,116,.13);
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    background-color: var(--secondary);
+    color: var(--dark);
+}
+
+.container {
+    max-width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+/*header */
+
+.header {
+    display: flex;
+    gap: 8vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.header_nav{
+    flex-grow: 1;
+    display: flex;
+    gap: 8vw;
+}
+
+.header_link {
+    color: #fbfbfb;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.header_link:hover {
+    color: var(--primary);
+}
+
+.header_btn {
+    font-size: 15px;
+    color: #fbfbfb;
+    border: none;
+    background-color: var(--secondary);
+    padding: 15px;
+    text-decoration: none;
+}
+
+.header_btn:hover {
+    color: var(--primary);
+}
+
+.site {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.site_thumbs {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+.thumbs_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.thumbs {
+    position: relative;
+    overflow: hidden;
+    width: 505px;
+    height: 100%;
+}
+
+.site_info {
+    color: #fbfbfb;
+    font-size: 24px;
+}
+
+.site_text {
+    line-height: 40px;
+}
+
+.site_title {
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 60px;
+    color: var(--primary);
+}
+
+.site_link {
+    color: var(--dark);
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 20px;
+}
+
+.hero_link:after {
+    content: "";
+    display: block;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+}
+
+.services {
+    display: flex;
+    gap: 80px;
+    font-size: 18px;
+    padding: 30px 20px 60px 0;
+}
+
+.services_col {
+    flex-basis: 320px;
+}
+
+.services_title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.services_text {
+    margin: 0;
+}
+
+.site_services {
+    background-color: #fbfbfb;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.web {
+    width: 85px;
+    height: 80px;
+    padding: 5;
+    
+}
+
+#about {
+    background-color: #fbfbfb;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+#about h2 {
+    color: var(--primary);
+    font-size: 30px;
+}
+
+#about p {
+    color: var(--dark);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#tea {
+    background-color: #fbfbfb;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+#reviews {
+    background-color: #fff0f5;
+    padding: 50px;
+    text-align: center;
+}
+
+#reviews h2 {
+    color: #7b4968;
+    font-size: 30px;
+}
+
+.review-form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.review-form label {
+    display: block;
+    text-align: left;
+    color: #7b4968;
+    margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e5b5c5;
+    border-radius: 10px;
+}
+
+.review-form textarea {
+    height: 100px;
+}
+
+.review-form button {
+    background-color: #e99ab1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
