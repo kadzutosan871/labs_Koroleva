@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+    background-color: #b47a9a;
+    color: #00030e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    display: flex;
+    gap: 8vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #00030e;
+}
+
+.header__nav {
+    display: flex;
+    flex-grow: 1;
+    gap: 5vw;
+}
+.header__link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#home h1{
+    color: aliceblue;
+    font-size: 32px;
+    margin: 40px;
+}
+
+#home p{
+    color: #5e3a5c;
+    font-size: 39px;
+    margin: 40px;
+}
+
+#home img { 
+position: absolute; 
+right: 30px; 
+top: 40px; 
+width: 570px; 
+z-index: -1;
+}
+
+.about__block {
+    display: flex;
+    gap: 60px;
+    margin: 40px;
+}
+
+.about, 
+.consultation {
+    background-color: #5e3a5c;  
+    border-radius: 10px; 
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+}
+
+.about{
+    width: 70%;
+}
+
+.consultation{
+    width: 30%;
+}
+
+.about h2,
+.consultation h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.about p, 
+.consultation p { 
+    color: white; 
+    font-size: 19px; 
+    line-height: 1.6; 
+}
+
+.consultation button {
+    background-color: #b47a9a;
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+}
+
+#products {
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+}
+
+#products h2 {
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#products article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+}
+
+#why {
+    background-color: #5e3a5c;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+#why h2 {
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#why h3 {
+    color: #b47a9a;
+    font-size: 19px;
+}
+
+#why p {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+#why article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    width: 30%;
+}
+
+.review-form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.review-form label {
+    display: block;
+    text-align: left;
+    color: #7b4968;
+    margin-bottom: 5px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e5b5c5;
+    border-radius: 10px;
+}
+
+.review-form textarea {
+    height: 100px;
+}
+
+.review-form button {
+    background-color: #e99ab1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #00030e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+footer h2 {
+    color: #b47a9a;
+}
+
+.footer-map {
+    width: 40%;
+}
+
+.footer-map h3 {
+    color: #b47a9a;
+    font-size: 22px;
+}
+
+.footer-map iframe {
+    border-radius: 5px;
+}
